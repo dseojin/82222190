@@ -22,7 +22,8 @@ public class userController {
      */
     @GetMapping(value = "/user")
     public String getId() {
-        return "82222190";
+        String id = "82222190";
+        return id;
     }
 
 }
